@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffdff7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.phone-screen {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    color: rgb(254, 138, 200);
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.game-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.game-button img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    transition: transform 0.3s ease;
+}
+
+.game-button img:hover {
+    transform: scale(1.1);
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result h2 {
+    font-size: 18px;
+    /* Increased font size for result texts */
+    margin: 5px 0;
+    font-weight: bold;
+    /* Making the result texts bold */
+
+}
